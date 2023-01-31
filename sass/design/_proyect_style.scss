@@ -1,0 +1,33 @@
+.proyect{
+    margin-top: 30px;
+    .proyect_title{
+        .proyect_title-img{
+            background-image: url("/img/proyect_section.png");
+            background-size: cover;    
+            position: relative;
+            z-index: -2;       
+        }
+        .proyect_title-txt{  
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            transform: rotate(-90deg);
+            position: relative;
+            z-index: -1;
+           h3{
+            text-align: end;
+            padding: 10px;
+            background-color: rgba($color: #8a8585, $alpha: 1);
+           }
+        }
+       
+    }
+}
+
+@media screen and (min-width:767px) {
+
+    .proyect_title-img{
+        height: 400px;
+        position: relative;
+    }
+}
