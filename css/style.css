@@ -181,7 +181,7 @@ p {
 }
 
 .home {
-  background-image: url("../../img/home.png");
+  background-image: url("../img/home.png");
   background-position: center;
   background-size: cover;
 }
@@ -199,7 +199,7 @@ p {
 }
 
 .proyect .proyect_title .proyect_title-img {
-  background-image: url("/img/proyect_section.png");
+  background-image: url("../img/proyect_section.png");
   background-size: cover;
   position: relative;
   z-index: -2;
